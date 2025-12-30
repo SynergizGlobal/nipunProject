@@ -1,0 +1,62 @@
+/* OtpVerify.css */
+
+.otp-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.otp-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.otp-container p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.otp-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.otp-container button {
+  width: 85%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.otp-container button:hover {
+  background-color: #0056b3;
+}
+
+.otp-message {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.otp-message.success {
+  color: green;
+}
+
+.otp-message.error {
+  color: red;
+}
